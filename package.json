@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/silberneimer-sandbox/typescript-react-ink-cli-app/issues"
   },
-    "files": [
+  "files": [
     "dist/**/*",
     "bin/**/*"
   ],

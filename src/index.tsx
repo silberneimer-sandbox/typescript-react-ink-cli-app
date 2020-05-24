@@ -7,7 +7,9 @@ main();
 function main() {
     render(
         <Box margin={1}>
-            <Text bold>Hello, React Ink CLI App!</Text>
+            <Color yellowBright>
+                <Text bold>Hello, React Ink CLI App!</Text>
+            </Color>
         </Box>
     );
 }
