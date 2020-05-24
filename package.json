@@ -1,18 +1,38 @@
 {
   "name": "typescript-react-ink-cli-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
+  "preferGlobal": true,
   "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "runcli": "./bin/main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silberneimer-sandbox/typescript-react-ink-cli-app.git"
   },
-  "author": "",
+  "author": "silberneimer",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/silberneimer-sandbox/typescript-react-ink-cli-app/issues"
   },
-  "homepage": "https://github.com/silberneimer-sandbox/typescript-react-ink-cli-app#readme"
+    "files": [
+    "dist/**/*",
+    "bin/**/*"
+  ],
+  "bin": {
+    "plzname": "./bin/main"
+  },
+  "dependencies": {
+    "ink": "^2.7.1",
+    "react": "^16.13.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35"
+  }
 }
