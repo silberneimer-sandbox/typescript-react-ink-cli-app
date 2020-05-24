@@ -1,11 +1,13 @@
 setup:
-	yarn
+	npm install
 build:
-	yarn build
+	npm run build
 run: build
-	yarn runcli
+	npm rum runcli
 link:
 	npm install
 	npm ci
 	npm run build
 	npm link
+unlink:
+	npm uninstall -g typescript-react-ink-cli-app
