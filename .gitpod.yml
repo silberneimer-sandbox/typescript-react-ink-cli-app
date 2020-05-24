@@ -1,2 +1,6 @@
 tasks:
   - init: npm install
+
+vscode:
+  extensions:
+    - ms-vscode.vscode-typescript-next@4.0.20200522:gtyCRvX4t0W5W98P0R6HHQ==
